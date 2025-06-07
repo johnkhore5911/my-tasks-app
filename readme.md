@@ -1,33 +1,37 @@
 My Tasks App
-Author: John
-Project Description
-"My Tasks" is a mobile application built with React Native and Expo, designed to help users manage tasks efficiently. The app allows users to add, view, complete, and delete tasks, with additional features like task prioritization, editing, local notifications, and data persistence. It fulfills all core requirements and includes advanced features outlined in the AffWorld LLC assignment.
-Features
+Author: [Your Name]Assignment: React Native Developer Assignment for AffWorld LLCSubmission Deadline: 11/06/2025
 
-Task Input: Add tasks via a text input field with an "Add Task" button, including error handling to prevent empty tasks.
-Task List Display: Displays tasks in a scrollable list with clear text presentation.
-Task Completion: Toggle task completion with a checkbox, visually distinguished by a strikethrough effect.
+📋 Project Overview
+"My Tasks" is a mobile application built with React Native and Expo, designed to help users manage tasks efficiently. The app fulfills all core requirements and includes advanced features as specified in the AffWorld LLC assignment. It features a clean, intuitive interface with robust functionality, including task management, local notifications, and data persistence.
+
+🚀 Features
+Core Functionality
+
+Task Input: Add tasks via a text input field with an "Add Task" button. Prevents empty task submissions with user-friendly error handling.
+Task List Display: Shows tasks in a scrollable list with clear, readable text.
+Task Completion: Toggle completion status using a checkbox, with a strikethrough effect to visually distinguish completed tasks.
 Delete Task: Remove tasks using a trash icon next to each task.
-Local Notifications: Schedules a notification for each new task (triggers 10 seconds after creation) with the task name and a reminder message. Completed tasks have their notifications cancelled.
-Advanced Features:
-Data Persistence: Tasks are saved locally using AsyncStorage, persisting across app restarts.
-Edit Task: Edit existing task text via an edit icon and save changes.
-Task Prioritization: Assign high, medium, or low priority to tasks, with visual indicators in the list.
-UI/UX Enhancements: Includes smooth animations for task addition/deletion and a clean, intuitive design.
+Local Notifications: Schedules a notification for each new task (triggers 10 seconds after creation) with a message like "Time to complete: [Task Name]." Notifications for completed tasks are cancelled.
+
+Advanced Features (Bonus)
+
+Data Persistence: Saves tasks locally using AsyncStorage, ensuring tasks persist after app closure.
+Edit Task: Edit existing task text via an edit icon and save changes seamlessly.
+Task Prioritization: Assign high, medium, or low priority to tasks, displayed with color-coded indicators (red for high, yellow for medium, green for low).
+UI/UX Enhancements: Includes smooth animations (e.g., fade-in for task addition/deletion) and a modern, minimalistic design for improved usability.
 
 
+🛠️ Setup and Installation
+Prerequisites
 
-Setup and Run Instructions
+Node.js: Version 14 or later
+Expo CLI: Install globally with npm install -g expo-cli
+Expo Go: Install the Expo Go app on your iOS or Android device
 
-Prerequisites:
-
-Node.js (v14 or later)
-Expo CLI (npm install -g expo-cli)
-Expo Go app on your mobile device (iOS/Android)
-
+Steps to Run
 
 Clone the Repository:
-git clone https://github.com/johnkhore5911/my-tasks-app.git
+git clone [your-public-github-repo-url]
 cd my-tasks-app
 
 
@@ -35,35 +39,44 @@ Install Dependencies:
 npm install
 
 
-Start the Expo Development Server:
-expo start
+Start the Expo Server:
+npx expo start
 
 
 Run the App:
 
 Open the Expo Go app on your mobile device.
-Scan the QR code displayed by the Expo development server.
-Alternatively, run expo start --ios or expo start --android for simulator/emulator testing.
+Scan the QR code displayed by the Expo server.
+Alternatively, use npx expo start --ios or npx expo start --android for simulator/emulator testing.
 
 
-Permissions:
+Grant Permissions:
 
-Grant notification permissions when prompted to enable task reminders.
-
-
-
-Challenges and Design Choices
-
-Challenge: Data PersistenceEnsuring tasks persisted across app sessions was achieved using AsyncStorage. I handled edge cases like JSON parsing errors to ensure robust data handling.
-
-Design Choice: UI/UXI prioritized a clean, minimalistic design with subtle animations to improve usability without compromising performance. Task priorities are color-coded for quick recognition (red for high, yellow for medium, green for low).
-
-Design Choice: Error HandlingAdded validation to prevent empty task submissions and provided user feedback via alerts, ensuring a smooth interaction flow.
+Allow notification permissions when prompted to enable task reminders.
 
 
-Notes
 
-Meaningful variable names and modular components ensure readability and maintainability.
-The app is tested on both iOS and Android via Expo Go for cross-platform compatibility.
 
-Thank you for reviewing my submission! For any questions, please contact johnkhore26@gmail.com +91 90556653906
+🧠 Challenges and Design Choices
+
+Notification Management:Integrating Expo Notifications required handling permissions and ensuring cross-platform compatibility. I chose a 10-second trigger for testing purposes and implemented notification cancellation for completed tasks to enhance user experience.
+
+Data Persistence:Used AsyncStorage to persist tasks across app sessions. Added error handling for JSON parsing to ensure reliability.
+
+UI/UX Design:Focused on a clean, minimalistic interface with subtle animations (e.g., task addition/deletion transitions) to improve usability without impacting performance. Color-coded priority indicators (red for high, yellow for medium, green for low) make task status clear at a glance.
+
+Error Handling:Implemented validation to prevent empty task submissions, with user feedback via alerts for a seamless experience.
+
+
+
+📝 Notes
+
+The codebase uses ES6+ with React Hooks (useState, useEffect) for efficient state management.
+Modular components and meaningful variable names ensure code readability and maintainability.
+Tested on both iOS and Android via Expo Go for cross-platform compatibility.
+The repository includes all necessary files to run the app out of the box.
+
+
+📬 Contact
+For any questions or feedback, please reach out to [Your Email or Contact Info].
+Thank you for reviewing my submission!
