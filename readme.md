@@ -1,5 +1,6 @@
 My Tasks App
-Author: [Your Name]Assignment: React Native Developer Assignment for AffWorld LLCSubmission Deadline: 11/06/2025
+Author: John
+Assignment: React Native Developer Assignment for AffWorld LLCSubmission Deadline: 11/06/2025
 
 📋 Project Overview
 "My Tasks" is a mobile application built with React Native and Expo, designed to help users manage tasks efficiently. The app fulfills all core requirements and includes advanced features as specified in the AffWorld LLC assignment. It features a clean, intuitive interface with robust functionality, including task management, local notifications, and data persistence.
@@ -31,7 +32,7 @@ Expo Go: Install the Expo Go app on your iOS or Android device
 Steps to Run
 
 Clone the Repository:
-git clone [your-public-github-repo-url]
+git clone https://github.com/johnkhore5911/my-tasks-app.git
 cd my-tasks-app
 
 
@@ -78,5 +79,7 @@ The repository includes all necessary files to run the app out of the box.
 
 
 📬 Contact
-For any questions or feedback, please reach out to [Your Email or Contact Info].
+For any questions or feedback, please reach out to 
+johnkhore26@gmail.com
++91 9056653906
 Thank you for reviewing my submission!
