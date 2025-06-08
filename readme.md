@@ -34,14 +34,20 @@ Task Prioritization: Assign High, Medium, or Low priority to tasks, with color-c
 UI/UX Enhancements: Smooth fade-in/out animations on task addition and deletion, modern minimal design, and color-coded priorities.
 
 
+
 Here’s a quick look at the "My Tasks" app interface and features:
 
-![Task App Screenshot](assets/33338.jpg)
+<img src="assets/33338.jpg" alt="Task App Screenshot" width="400"/>
+
+[![Watch Demo Video](assets/33338.jpg)](https://www.youtube.com/watch?v=your_video_id)
+
+▶️ [Watch Demo Video on YouTube](https://www.youtube.com/watch?v=your_video_id)
 
 ✔️ Add, edit, delete tasks  
 ✔️ Task prioritization with color tags  
 ✔️ Local notifications reminders  
 ✔️ Data persistence using AsyncStorage  
+
 
 🛠️ Setup and Installation
 📦 Prerequisites
