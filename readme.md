@@ -33,37 +33,39 @@ Task Prioritization: Assign High, Medium, or Low priority to tasks, with color-c
 
 UI/UX Enhancements: Smooth fade-in/out animations on task addition and deletion, modern minimal design, and color-coded priorities.
 
+
+Here’s a quick look at the "My Tasks" app interface and features:
+
+![Task App Screenshot](assets/33338.jpg)
+
+✔️ Add, edit, delete tasks  
+✔️ Task prioritization with color tags  
+✔️ Local notifications reminders  
+✔️ Data persistence using AsyncStorage  
+
 🛠️ Setup and Installation
 📦 Prerequisites
 Node.js: v14+
 
 Expo CLI: Install globally
 
-bash
-Copy
-Edit
+
 npm install -g expo-cli
 Expo Go App: Available on iOS & Android app stores
 
 📲 Steps to Run
 Clone the Repository
 
-bash
-Copy
-Edit
+
 git clone https://github.com/johnkhore5911/my-tasks-app.git
 cd my-tasks-app
 Install Dependencies
 
-bash
-Copy
-Edit
+
 npm install
 Start the Expo Development Server
 
-bash
-Copy
-Edit
+
 npx expo start
 Run the App
 
@@ -73,9 +75,7 @@ Scan the QR code shown in your terminal.
 
 Or run on a simulator:
 
-bash
-Copy
-Edit
+
 npx expo start --ios
 npx expo start --android
 Grant Permissions
