@@ -40,7 +40,7 @@ Here’s a quick look at the "My Tasks" app interface and features:
 <img src="assets/33338.jpg" alt="Task App Screenshot" width="400"/>
 
 Watch Demo Video
-https://www.youtube.com/watch?v=your_video_id
+https://youtu.be/PZQNhsg2OL8
 
 
 ✔️ Add, edit, delete tasks  
