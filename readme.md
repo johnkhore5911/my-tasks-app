@@ -64,15 +64,19 @@ Clone the Repository
 
 
 git clone https://github.com/johnkhore5911/my-tasks-app.git
+<br>
 cd my-tasks-app
+<br>
+<br>
 Install Dependencies
 
-
 npm install
+<br>
 Start the Expo Development Server
 
 
 npx expo start
+<br>
 Run the App
 
 Open the Expo Go app on your mobile device.
@@ -83,15 +87,16 @@ Or run on a simulator:
 
 
 npx expo start --ios
+<br>
 npx expo start --android
+<br>
 Grant Permissions
-
 Allow notification permissions when prompted to enable task reminders.
+<br>
 
 🧠 Challenges and Design Choices
 Notification Management:
-Integrated Expo Notifications with a 10-second trigger for testing. Managed notification cancellation for completed tasks to enhance UX.
-
+Integrated Expo Notifications with a 15-second trigger for testing. Managed notification cancellation for completed tasks to enhance UX.
 Data Persistence:
 Implemented AsyncStorage with error handling for reliable JSON parsing and data management.
 
