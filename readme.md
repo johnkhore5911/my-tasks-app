@@ -1,85 +1,110 @@
-My Tasks App
+📱 My Tasks App
 Author: John
-Assignment: React Native Developer Assignment for AffWorld LLCSubmission Deadline: 11/06/2025
+Assignment: React Native Developer Assignment for AffWorld LLC
+Submission Deadline: 11/06/2025
 
 📋 Project Overview
-"My Tasks" is a mobile application built with React Native and Expo, designed to help users manage tasks efficiently. The app fulfills all core requirements and includes advanced features as specified in the AffWorld LLC assignment. It features a clean, intuitive interface with robust functionality, including task management, local notifications, and data persistence.
+"My Tasks" is a simple, clean, and efficient mobile task management app built with React Native and Expo. It allows users to add, complete, edit, delete, and prioritize tasks while receiving timely reminders through local notifications. The app fulfills all core requirements and implements several bonus features as specified in the AffWorld LLC assignment.
 
 🚀 Features
-Core Functionality
+✅ Core Functionality
+Task Input: Add new tasks via a text input field with an "Add Task" button. Prevents empty submissions with user-friendly alerts.
 
-Task Input: Add tasks via a text input field with an "Add Task" button. Prevents empty task submissions with user-friendly error handling.
-Task List Display: Shows tasks in a scrollable list with clear, readable text.
-Task Completion: Toggle completion status using a checkbox, with a strikethrough effect to visually distinguish completed tasks.
-Delete Task: Remove tasks using a trash icon next to each task.
-Local Notifications: Schedules a notification for each new task (triggers 10 seconds after creation) with a message like "Time to complete: [Task Name]." Notifications for completed tasks are cancelled.
+Task List Display: View tasks in a scrollable, clean list.
 
-Advanced Features (Bonus)
+Task Completion: Mark tasks as complete with a checkbox and visual strikethrough.
 
-Data Persistence: Saves tasks locally using AsyncStorage, ensuring tasks persist after app closure.
-Edit Task: Edit existing task text via an edit icon and save changes seamlessly.
-Task Prioritization: Assign high, medium, or low priority to tasks, displayed with color-coded indicators (red for high, yellow for medium, green for low).
-UI/UX Enhancements: Includes smooth animations (e.g., fade-in for task addition/deletion) and a modern, minimalistic design for improved usability.
+Delete Task: Remove tasks via a trash icon next to each item.
 
+Local Notifications: Automatically schedules a notification 10 seconds after adding a task to remind users. Cancels notifications for completed tasks.
+
+🌟 Advanced Features (Bonus)
+Data Persistence: Save and retrieve tasks locally using AsyncStorage, so tasks remain after app closure.
+
+Edit Task: Seamlessly edit existing tasks via an edit icon.
+
+Task Prioritization: Assign High, Medium, or Low priority to tasks, with color-coded indicators:
+
+🔴 High
+
+🟡 Medium
+
+🟢 Low
+
+UI/UX Enhancements: Smooth fade-in/out animations on task addition and deletion, modern minimal design, and color-coded priorities.
 
 🛠️ Setup and Installation
-Prerequisites
+📦 Prerequisites
+Node.js: v14+
 
-Node.js: Version 14 or later
-Expo CLI: Install globally with npm install -g expo-cli
-Expo Go: Install the Expo Go app on your iOS or Android device
+Expo CLI: Install globally
 
-Steps to Run
+bash
+Copy
+Edit
+npm install -g expo-cli
+Expo Go App: Available on iOS & Android app stores
 
-Clone the Repository:
+📲 Steps to Run
+Clone the Repository
+
+bash
+Copy
+Edit
 git clone https://github.com/johnkhore5911/my-tasks-app.git
 cd my-tasks-app
+Install Dependencies
 
-
-Install Dependencies:
+bash
+Copy
+Edit
 npm install
+Start the Expo Development Server
 
-
-Start the Expo Server:
+bash
+Copy
+Edit
 npx expo start
-
-
-Run the App:
+Run the App
 
 Open the Expo Go app on your mobile device.
-Scan the QR code displayed by the Expo server.
-Alternatively, use npx expo start --ios or npx expo start --android for simulator/emulator testing.
 
+Scan the QR code shown in your terminal.
 
-Grant Permissions:
+Or run on a simulator:
+
+bash
+Copy
+Edit
+npx expo start --ios
+npx expo start --android
+Grant Permissions
 
 Allow notification permissions when prompted to enable task reminders.
 
-
-
-
 🧠 Challenges and Design Choices
+Notification Management:
+Integrated Expo Notifications with a 10-second trigger for testing. Managed notification cancellation for completed tasks to enhance UX.
 
-Notification Management:Integrating Expo Notifications required handling permissions and ensuring cross-platform compatibility. I chose a 10-second trigger for testing purposes and implemented notification cancellation for completed tasks to enhance user experience.
+Data Persistence:
+Implemented AsyncStorage with error handling for reliable JSON parsing and data management.
 
-Data Persistence:Used AsyncStorage to persist tasks across app sessions. Added error handling for JSON parsing to ensure reliability.
+UI/UX Design:
+Emphasized a clean, minimalistic interface with subtle animations to improve usability without impacting performance. Color-coded priorities for quick visual cues.
 
-UI/UX Design:Focused on a clean, minimalistic interface with subtle animations (e.g., task addition/deletion transitions) to improve usability without impacting performance. Color-coded priority indicators (red for high, yellow for medium, green for low) make task status clear at a glance.
+Error Handling:
+Prevented empty task submissions with alerts for a seamless user experience.
 
-Error Handling:Implemented validation to prevent empty task submissions, with user feedback via alerts for a seamless experience.
+📖 Notes
+Uses React Hooks (useState, useEffect) for state management.
 
+Modular, clean code with meaningful component and variable names.
 
+Tested on both iOS and Android using Expo Go.
 
-📝 Notes
-
-The codebase uses ES6+ with React Hooks (useState, useEffect) for efficient state management.
-Modular components and meaningful variable names ensure code readability and maintainability.
-Tested on both iOS and Android via Expo Go for cross-platform compatibility.
-The repository includes all necessary files to run the app out of the box.
-
+All required files are included for a smooth setup.
 
 📬 Contact
-For any questions or feedback, please reach out to 
+For questions, suggestions, or feedback, reach out via:
+john
 johnkhore26@gmail.com
-+91 9056653906
-Thank you for reviewing my submission!
