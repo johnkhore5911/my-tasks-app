@@ -9,16 +9,18 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~53.0.10",
-    "expo-status-bar": "~2.2.3",
-    "react": "19.0.0",
-    "react-native": "0.79.3",
-    "expo-updates": "~0.28.14",
-    "expo-notifications": "~0.31.3",
     "@expo/vector-icons": "^14.1.0",
     "@react-native-async-storage/async-storage": "2.1.2",
-    "react-native-gesture-handler": "~2.24.0",
+    "axios": "^1.9.0",
+    "expo": "~53.0.10",
+    "expo-device": "^7.1.4",
     "expo-linear-gradient": "~14.1.5",
+    "expo-notifications": "~0.31.3",
+    "expo-status-bar": "~2.2.3",
+    "expo-updates": "~0.28.14",
+    "react": "19.0.0",
+    "react-native": "0.79.3",
+    "react-native-gesture-handler": "~2.24.0",
     "react-native-safe-area-context": "5.4.0"
   },
   "devDependencies": {
